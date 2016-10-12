@@ -5,30 +5,30 @@
  * +-----------------------------------------------------------------+
  * | This binding aims to provide the ImageMagick methods to OCaml.  |
  * +-----------------------------------------------------------------+
- * |                                                                 |
- * | This program is free software; you can redistribute it and/or   |
- * | modify it under the terms of the GNU General Public License     |
- * | as published by the Free Software Foundation; either version 2  |
- * | of the License, or (at your option) any later version.          |
- * |                                                                 |
- * | This program is distributed in the hope that it will be useful, |
- * | but WITHOUT ANY WARRANTY; without even the implied warranty of  |
- * | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the   |
- * | GNU General Public License for more details.                    |
- * |                                                                 |
- * | http://www.fsf.org/licensing/licenses/gpl.html                  |
- * |                                                                 |
- * | You should have received a copy of the GNU General Public       |
- * | License along with this program; if not,                        |
- * | write to the Free Software Foundation, Inc.,                    |
- * | 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA    |
- * |                                                                 |
+ * |
+ * | Permission is hereby granted, free of charge, to any person obtaining a
+ * | copy of this software and associated files (the "Software"), to deal in
+ * | the Software without restriction, including without limitation the rights
+ * | to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * | copies of the Software, and to permit persons to whom the Software is
+ * | furnished to do so, subject to the following requests:
+ * | 
+ * | The above copyright notice and this permission notice may be included in
+ * | all copies or substantial portions of the Software.
+ * | 
+ * | The Software is provided "AS IS", without warranty of any kind, express or
+ * | implied, including but not limited to the warranties of merchantability,
+ * | fitness for a particular purpose and noninfringement.  In no event shall
+ * | the authors or copyright holders be liable for any claim, damages or other
+ * | liability, whether in an action of contract, tort or otherwise, arising
+ * | from, out of or in connection with the Software or the use or other
+ * | dealings in the Software.
+ * |
  * +-----------------------------------------------------------------+
- * | Author: Florent Monnier <fmonnier@linux-nantes.fr.eu.org>       |
+ * | Author: Florent Monnier                                         |
+ * | Contact::email: 'fmonnie'+'r@linux-nantes.org'                  |
  * | Thanks to Matthieu Dubuget for his help with OCamlMakefile use. |
  * +-----------------------------------------------------------------+
- *
- * $Id$
  *
  * }}} */
 

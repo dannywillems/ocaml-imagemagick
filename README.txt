@@ -1,16 +1,20 @@
 
 WHAT:
-      This binding is an ImageMagick interface for Objective Caml.
+      This binding is an ImageMagick interface for OCaml.
 
-AUTHOR:
+AUTHORS:
       Copyright (C) 2004 2005 2006 2010 Florent Monnier <fmonnier@linux-nantes.org>
 
 
+CONTRIBUTORS:
+      Hugo Heuzard - various fixes for the Makefile
+
+
 LICENSE:
-      This binding is released under the GNU General Public Licence.
-      (The ImageMagick's license is compatible with the GPL.)
-      The licence is in the file "LICENSE_GPL.txt" or on the web:
-        http://www.fsf.org/licensing/licenses/gpl.html
+      This binding is released under the MIT License.
+      (The ImageMagick's license is compatible with the MIT.)
+      The license is in the file "LICENSE_MIT.txt" or on the web:
+        http://opensource.org/licenses/MIT
 
 
 NOTICE:
@@ -19,7 +23,7 @@ NOTICE:
 
 
 REQUISITES:
-      Objective Caml, which can be obtained from:
+      OCaml, which can be obtained from:
        - http://caml.inria.fr/ocaml/
       ImageMagick, which you will find at:
        - http://www.imagemagick.org/script/download.php
@@ -34,7 +38,7 @@ VERSIONS:
         '3.08.4', '3.09.0', '3.09.2' and '3.11.1' and ImageMagick versions
         '6.2.4', '6.2.5', '6.2.6' and '6.5.7'.
       The old versions of this binding are still available at:
-        http://www.linux-nantes.fr.eu.org/~fmonnier/OCaml/IM-old.php
+        http://www.linux-nantes.org/~fmonnier/OCaml/ImageMagick/IM-old.php
       Please report success or failure with other versions.
       If you encounter problems to compile from sources, email me and
         I will make a static binary available.
@@ -53,6 +57,7 @@ BUGS:
 
 INSTALL:
       Run "make" to build the library, and "make install" to install it.
+      If you prefer to install using findlib run "make find_install".
 
 STATIC:
       If you wish a static version, just follow the instructions in the Makefile.
@@ -66,11 +71,11 @@ DOCUMENTATION:
       Run "make doc" to produce the HTML documentation.
 
       You can also find the html documentation of the last release at:
-      http://www.linux-nantes.org/~fmonnier/OCaml/ImageMagick/IM-doc/
+        http://www.linux-nantes.org/~fmonnier/OCaml/ImageMagick/doc/
 
 THREADS:
       For threads issues, read this:
-      http://www.imagemagick.org/script/architecture.php#threads
+        http://www.imagemagick.org/script/architecture.php#threads
 
 TODO:
       Next steps with OCaml-libMagick will be to improve the functional module.
@@ -100,7 +105,7 @@ THANKS:
         with big arrays.
       Thanks to Bruspal for his book about the C language.
       Thanks to all the guys of fr.comp.lang.caml who have answered to my questions.
-      Thanks to the authors of Objective Caml for this wonderfull language and 
+      Thanks to the authors of OCaml for this wonderfull language and 
         thanks to the authors of ImageMagick for this wonderfull library.
 
 
@@ -151,19 +156,38 @@ HOW TO USE WITH THIS LIBRARY INSTALLED:
 
 COPYING:
       This program is free software; you can redistribute it and/or
-      modify it under the terms of the GNU General Public License
-      as published by the Free Software Foundation; either version 2
-      of the License, or (at your option) any later version.
-    
+      modify it under the terms of the MIT License.
+
       This program is distributed in the hope that it will be useful,
       but WITHOUT ANY WARRANTY; without even the implied warranty of
       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      See the GNU General Public License for more details.
-    
-      You should have received a copy of the GNU General Public
-      License along with this program in the file 'LICENSE_GPL.txt';
+      See the MIT License for more details.
+
+      You should have received a copy of the MIT License
+      along with this program in the file 'LICENSE_MIT.txt';
       if not, you can find it on the web at:
-        http://www.fsf.org/licensing/licenses/gpl.html
+        http://opensource.org/licenses/MIT
+      or read the next paragraph:
+
+
+LICENSE:
+      Permission is hereby granted, free of charge, to any person obtaining a
+      copy of this software and associated files (the "Software"), to deal in
+      the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following request and conditions:
+
+      The above copyright notice and this permission notice may be included in
+      all copies or substantial portions of the Software.
+
+      The Software is provided "AS IS", without warranty of any kind, express or
+      implied, including but not limited to the warranties of merchantability,
+      fitness for a particular purpose and noninfringement.  In no event shall
+      the authors or copyright holders be liable for any claim, damages or other
+      liability, whether in an action of contract, tort or otherwise, arising
+      from, out of or in connection with the Software or the use or other
+      dealings in the Software.
 
 
 
