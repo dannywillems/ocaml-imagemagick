@@ -86,6 +86,7 @@ install:
 	    magick.mli	\
 	    magick.cmi	\
 	    magick.cma	\
+	    magick.cmx	\
 	    magick.cmxa	\
 	    magick.cmxs	\
 	    magick.a	\
@@ -101,6 +102,7 @@ find_install:
 	    magick.mli	\
 	    magick.cmi	\
 	    magick.cma	\
+	    magick.cmx	\
 	    magick.cmxa	\
 	    magick.cmxs	\
 	    magick.a	\
